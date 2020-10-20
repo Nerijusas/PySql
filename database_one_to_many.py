@@ -97,3 +97,5 @@ def get_account_transcations():
         db.execute(query)
         for row in db.fetchall():
             print(row)
+
+
